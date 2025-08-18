@@ -23,7 +23,7 @@ export default function RestaurantHero() {
         playsInline
       >
         <source
-          src="./public/38-40 Bell st, torquay vic, 3228 au (2).mp4"
+          src="./public/38-40 Bell st, torquay vic, 3228 au (4).mp4"
           type="video/mp4"
         />
         {/* Fallback image if video doesn't load */}
