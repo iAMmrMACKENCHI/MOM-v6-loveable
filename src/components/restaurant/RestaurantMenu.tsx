@@ -63,7 +63,7 @@ const menuItems: MenuItem[] = [
     description:
       "Fresh local barramundi with seasonal vegetables and lemon butter",
     price: 32,
-    image: "/dishes/5adcc762-67c0-4177-9ce3-4ba716bd8e74.jpg",
+    image: "/5adcc762-67c0-4177-9ce3-4ba716bd8e74.jpg",
     category: "lunch",
     isSpecial: true,
   },
@@ -72,7 +72,7 @@ const menuItems: MenuItem[] = [
     name: "Seafood Linguine",
     description: "Fresh prawns, scallops, and mussels in white wine sauce",
     price: 28,
-    image: "/dishes/024a5787-c51b-453e-869d-4db0250c746a.jpg",
+    image: "/024a5787-c51b-453e-869d-4db0250c746a.jpg",
     category: "lunch",
   },
   {
@@ -129,7 +129,7 @@ const menuItems: MenuItem[] = [
     name: "Seafood Platter",
     description: "Fresh oysters, prawns, crab, and fish of the day",
     price: 72,
-    image: "/dishes/600751b4-5cff-44b5-8aaf-ad125d5a8f83.jpg",
+    image: "/600751b4-5cff-44b5-8aaf-ad125d5a8f83.jpg",
     category: "dinner",
   },
 ];
