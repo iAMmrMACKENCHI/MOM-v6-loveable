@@ -193,7 +193,7 @@ export default function RestaurantFooter() {
               <p className="text-gray-300 text-sm">
                 Phone: (03) 5299 2200
                 <br />
-                Email: hello@momtorquay.com
+                Email: momcafe.456@gmail.com
               </p>
             </div>
             <div>
