@@ -98,7 +98,7 @@ export default function RestaurantLocation() {
                           Email
                         </h4>
                         <p className="text-gray-600 dark:text-gray-300 text-sm">
-                          omcafe.456@gmail.com
+                          momcafe.456@gmail.com
                         </p>
                       </div>
                     </div>
