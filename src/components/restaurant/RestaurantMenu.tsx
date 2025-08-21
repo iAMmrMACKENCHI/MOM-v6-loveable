@@ -183,6 +183,7 @@ const menuItems: MenuItem[] = [
     image:
       "https://thumbs.dreamstime.com/b/delicious-fish-dish-fried-bass-served-onion-lemon-parsley-turkish-cuisine-396629778.jpg",
     category: "dinner",
+    isSpecial: true,
   },
   {
     id: "18",
@@ -223,7 +224,6 @@ const menuItems: MenuItem[] = [
     image:
       "https://iamhomesteader.com/wp-content/uploads/2020/07/chicken-rissoto-1.jpg",
     category: "dinner",
-    isSpecial: true,
   },
   {
     id: "22",
