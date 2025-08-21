@@ -48,12 +48,12 @@ const menuItems: MenuItem[] = [
   },
   {
     id: "4",
-    name: "Mom's Big Brekky: (GFO, VO)",
+    name: "Shakshuka: (GFO, VO)",
     description:
-      "Choice of your eggs with sausage, grilled tomato, mushroom, bacon & homemade potato rosti, baked beans, add tofu & grilled greens to make it vegan",
-    price: 28,
+      "Capsicum, onion, tomato, sauteed garlic, fresh basil,served with feta and Turkish bread with baked free-range eggs",
+    price: 24,
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBmpSSgRTJNAFp-RypXLUj_Oh_klzA3cY13w&s",
+      "https://www.playfulcooking.com/wp-content/uploads/2023/06/shakshuka-02.jpg",
     category: "breakfast",
   },
   {
@@ -65,7 +65,6 @@ const menuItems: MenuItem[] = [
     image:
       "https://img.taste.com.au/MoN30idU/taste/2016/11/mixed-berry-pancakes-38452-1.jpeg",
     category: "breakfast",
-    isSpecial: true,
   },
   {
     id: "6",
@@ -178,14 +177,12 @@ const menuItems: MenuItem[] = [
   // Dinner
   {
     id: "17",
-    name: "Porterhouse steak: (GF)",
-    description:
-      "250g porterhouse served with chips or mashed potato, broccolini & peas. Options: mushrooms & pepper sauce",
-    price: 46,
+    name: "Mom's Special Fish",
+    description: "Please see details on the special board",
+    price: 41,
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs179ECZbWK0eFflRhxVpXZQ-X4zyqNrXQqw&s",
+      "https://thumbs.dreamstime.com/b/delicious-fish-dish-fried-bass-served-onion-lemon-parsley-turkish-cuisine-396629778.jpg",
     category: "dinner",
-    isSpecial: true,
   },
   {
     id: "18",
@@ -249,12 +246,13 @@ const menuItems: MenuItem[] = [
     category: "dinner",
   },
   {
-    id: "24",
-    name: "Mom's Special Fish",
-    description: "Please see details on the special board",
-    price: 41,
+        id: "24",
+    name: "Porterhouse steak: (GF)",
+    description:
+      "250g porterhouse served with chips or mashed potato, broccolini & peas. Options: mushrooms & pepper sauce",
+    price: 46,
     image:
-      "https://thumbs.dreamstime.com/b/delicious-fish-dish-fried-bass-served-onion-lemon-parsley-turkish-cuisine-396629778.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs179ECZbWK0eFflRhxVpXZQ-X4zyqNrXQqw&s",
     category: "dinner",
   },
   // // Breakfast
