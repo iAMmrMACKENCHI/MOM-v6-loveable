@@ -11,15 +11,18 @@ export default function RestaurantNavbar() {
 
   const navLinks = [
     { name: "Home", href: "#home" },
-    { name: "Menu", href: "#menu" },
+    { name: "Menu", href: "https://mom-torquay.yumbojumbo.com.au/" },
     { name: "Contact", href: "#contact" },
   ];
 
+  // const scrollToContact = () => {
+  //   const contactSection = document.getElementById("contact");
+  //   if (contactSection) {
+  //     contactSection.scrollIntoView({ behavior: "smooth" });
+  //   }
+  // };
   const scrollToContact = () => {
-    const contactSection = document.getElementById("contact");
-    if (contactSection) {
-      contactSection.scrollIntoView({ behavior: "smooth" });
-    }
+    window.open("https://mom-torquay.yumbojumbo.com.au/", "_blank");
   };
 
   useEffect(() => {
