@@ -10,7 +10,9 @@ export default function RestaurantHero() {
       videoRef.current.play().catch(console.error);
     }
   }, []);
-
+const goToOrderSite = () => {
+  window.open("https://mom-torquay.yumbojumbo.com.au/", "_blank");
+};
   return (
     <section id="home" className="relative h-screen overflow-hidden">
       {/* Background Video */}
@@ -48,6 +50,7 @@ export default function RestaurantHero() {
             <Button
               size="lg"
               className="bg-yellow-500 hover:bg-yellow-600 text-black font-semibold rounded-full px-8 py-3 transition-all duration-300 hover:shadow-xl hover:scale-105 min-w-[200px]"
+              onClick={goToOrderSite}
             >
               Order Now
             </Button>
@@ -55,6 +58,7 @@ export default function RestaurantHero() {
               variant="outline"
               size="lg"
               className="border-white text-grey-600 hover:bg-white hover:text-black rounded-full px-8 py-3 transition-all duration-300 hover:shadow-xl hover:scale-105 min-w-[200px]"
+              onClick={goToOrderSite}
             >
               View Menu
             </Button>
