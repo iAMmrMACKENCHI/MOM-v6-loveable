@@ -343,7 +343,7 @@ export default function RestaurantMenu() {
                     ${item.price}
                   </span>
                 </div>
-                <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-4 flex-grow">
+                <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed -mb-8 flex-grow">
                   {item.description}
                 </p>
                 <Button
