@@ -350,7 +350,7 @@ export default function RestaurantMenu() {
                   className="w-full rounded-full bg-primary hover:bg-primary/90 transition-all duration-300 hover:shadow-lg mt-auto"
                   onClick={goToOrderSite}
                 >
-                  Add to Order
+                  Order Now
                 </Button>
               </CardContent>
             </Card>
@@ -364,7 +364,7 @@ export default function RestaurantMenu() {
             className="bg-primary hover:bg-primary/90 text-white font-semibold rounded-full px-12 py-4 transition-all duration-300 hover:shadow-xl hover:scale-105 text-lg"
           onClick={goToOrderSite}
           >
-            Order Now
+            Order Online
           </Button>
         </div>
       </div>
