@@ -12,7 +12,7 @@ export default function RestaurantNavbar() {
   const navLinks = [
     { name: "Home", href: "#home" },
     { name: "Menu", href: "https://mom-torquay.yumbojumbo.com.au/" },
-    { name: "Contact", href: "#contact" },
+    { name: "Reservations", href: "#contact" },
   ];
 
   // const scrollToContact = () => {
@@ -88,7 +88,7 @@ export default function RestaurantNavbar() {
             className="bg-primary hover:bg-primary/90 text-white rounded-full px-6 py-2 transition-all duration-300 hover:shadow-lg hover:scale-105"
             onClick={scrollToContact}
           >
-            Order & Reservation
+            Order Online
           </Button>
         </div>
 
@@ -135,7 +135,7 @@ export default function RestaurantNavbar() {
               scrollToContact();
             }}
           >
-            Order & Reservation
+            Order Online
           </Button>
         </div>
       </div>
