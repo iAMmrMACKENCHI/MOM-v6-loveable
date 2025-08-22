@@ -273,8 +273,7 @@ export default function RestaurantMenu() {
   );
   const goToOrderSite = () => {
   window.open("https://mom-torquay.yumbojumbo.com.au/", "_blank");
-};
-
+    };
   return (
     <section id="menu" className="py-20 bg-gray-50 dark:bg-gray-900">
       <div className="container mx-auto px-4">
@@ -349,13 +348,7 @@ export default function RestaurantMenu() {
                 </p>
                 <Button
                   className="w-full rounded-full bg-primary hover:bg-primary/90 transition-all duration-300 hover:shadow-lg mt-auto"
-{/*                   onClick={() => {
-                    const contactSection = document.getElementById("contact");
-                    if (contactSection) {
-                      contactSection.scrollIntoView({ behavior: "smooth" });
-                    }
-                  }} */}
-                onClick={goToOrderSite}
+                  onClick={goToOrderSite}
                 >
                   Add to Order
                 </Button>
@@ -369,12 +362,6 @@ export default function RestaurantMenu() {
           <Button
             size="lg"
             className="bg-primary hover:bg-primary/90 text-white font-semibold rounded-full px-12 py-4 transition-all duration-300 hover:shadow-xl hover:scale-105 text-lg"
-{/*             onClick={() => {
-              const contactSection = document.getElementById("contact");
-              if (contactSection) {
-                contactSection.scrollIntoView({ behavior: "smooth" });
-              }
-            }} */}
           onClick={goToOrderSite}
           >
             Order Now
