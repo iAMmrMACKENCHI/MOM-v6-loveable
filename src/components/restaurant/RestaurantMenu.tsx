@@ -255,124 +255,6 @@ const menuItems: MenuItem[] = [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs179ECZbWK0eFflRhxVpXZQ-X4zyqNrXQqw&s",
     category: "dinner",
   },
-  // // Breakfast
-  // {
-  //   id: "1",
-  //   name: "Sunrise Pancakes",
-  //   description:
-  //     "Fluffy pancakes with fresh berries, maple syrup, and whipped cream",
-  //   price: 18,
-  //   image:
-  //     "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=400&h=300&fit=crop",
-  //   category: "breakfast",
-  //   isSpecial: true,
-  // },
-  // {
-  //   id: "2",
-  //   name: "Coastal Benedict",
-  //   description:
-  //     "Poached eggs on toasted brioche with smoked salmon and hollandaise",
-  //   price: 24,
-  //   image:
-  //     "https://images.unsplash.com/photo-1608039755401-742074f0548d?w=400&h=300&fit=crop",
-  //   category: "breakfast",
-  // },
-  // {
-  //   id: "3",
-  //   name: "Avocado Toast Deluxe",
-  //   description:
-  //     "Sourdough toast with smashed avocado, cherry tomatoes, and feta",
-  //   price: 16,
-  //   image:
-  //     "https://images.unsplash.com/photo-1541519227354-08fa5d50c44d?w=400&h=300&fit=crop",
-  //   category: "breakfast",
-  // },
-  // {
-  //   id: "4",
-  //   name: "Ocean Smoothie Bowl",
-  //   description: "Acai bowl topped with granola, coconut, and tropical fruits",
-  //   price: 15,
-  //   image:
-  //     "https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?w=400&h=300&fit=crop",
-  //   category: "breakfast",
-  // },
-
-  // // Lunch
-  // {
-  //   id: "5",
-  //   name: "Grilled Barramundi",
-  //   description:
-  //     "Fresh local barramundi with seasonal vegetables and lemon butter",
-  //   price: 32,
-  //   image: "/5adcc762-67c0-4177-9ce3-4ba716bd8e74.jpg",
-  //   category: "lunch",
-  //   isSpecial: true,
-  // },
-  // {
-  //   id: "6",
-  //   name: "Seafood Linguine",
-  //   description: "Fresh prawns, scallops, and mussels in white wine sauce",
-  //   price: 28,
-  //   image: "/024a5787-c51b-453e-869d-4db0250c746a.jpg",
-  //   category: "lunch",
-  // },
-  // {
-  //   id: "7",
-  //   name: "Beach Burger",
-  //   description: "Wagyu beef patty with bacon, cheese, and house-made chips",
-  //   price: 24,
-  //   image:
-  //     "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&h=300&fit=crop",
-  //   category: "lunch",
-  // },
-  // {
-  //   id: "8",
-  //   name: "Mediterranean Salad",
-  //   description: "Mixed greens, olives, feta, tomatoes with balsamic dressing",
-  //   price: 20,
-  //   image:
-  //     "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=400&h=300&fit=crop",
-  //   category: "lunch",
-  // },
-
-  // // Dinner
-  // {
-  //   id: "9",
-  //   name: "Surf & Turf",
-  //   description:
-  //     "Grilled lobster tail and prime beef fillet with garlic butter",
-  //   price: 65,
-  //   image:
-  //     "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400&h=300&fit=crop",
-  //   category: "dinner",
-  //   isSpecial: true,
-  // },
-  // {
-  //   id: "10",
-  //   name: "Pan-Seared Salmon",
-  //   description: "Atlantic salmon with roasted vegetables and herb sauce",
-  //   price: 38,
-  //   image:
-  //     "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=400&h=300&fit=crop",
-  //   category: "dinner",
-  // },
-  // {
-  //   id: "11",
-  //   name: "Lamb Rack",
-  //   description: "Herb-crusted lamb rack with rosemary jus and seasonal sides",
-  //   price: 45,
-  //   image:
-  //     "https://images.unsplash.com/photo-1544025162-d76694265947?w=400&h=300&fit=crop",
-  //   category: "dinner",
-  // },
-  // {
-  //   id: "12",
-  //   name: "Seafood Platter",
-  //   description: "Fresh oysters, prawns, crab, and fish of the day",
-  //   price: 72,
-  //   image: "/600751b4-5cff-44b5-8aaf-ad125d5a8f83.jpg",
-  //   category: "dinner",
-  // },
 ];
 
 export default function RestaurantMenu() {
@@ -389,6 +271,9 @@ export default function RestaurantMenu() {
   const filteredItems = menuItems.filter(
     (item) => item.category === activeCategory
   );
+  const goToOrderSite = () => {
+  window.open("https://mom-torquay.yumbojumbo.com.au/", "_blank");
+};
 
   return (
     <section id="menu" className="py-20 bg-gray-50 dark:bg-gray-900">
@@ -464,12 +349,13 @@ export default function RestaurantMenu() {
                 </p>
                 <Button
                   className="w-full rounded-full bg-primary hover:bg-primary/90 transition-all duration-300 hover:shadow-lg mt-auto"
-                  onClick={() => {
+{/*                   onClick={() => {
                     const contactSection = document.getElementById("contact");
                     if (contactSection) {
                       contactSection.scrollIntoView({ behavior: "smooth" });
                     }
-                  }}
+                  }} */}
+                onClick={goToOrderSite}
                 >
                   Add to Order
                 </Button>
@@ -483,12 +369,13 @@ export default function RestaurantMenu() {
           <Button
             size="lg"
             className="bg-primary hover:bg-primary/90 text-white font-semibold rounded-full px-12 py-4 transition-all duration-300 hover:shadow-xl hover:scale-105 text-lg"
-            onClick={() => {
+{/*             onClick={() => {
               const contactSection = document.getElementById("contact");
               if (contactSection) {
                 contactSection.scrollIntoView({ behavior: "smooth" });
               }
-            }}
+            }} */}
+          onClick={goToOrderSite}
           >
             Order Now
           </Button>
