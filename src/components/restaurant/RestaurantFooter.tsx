@@ -191,7 +191,7 @@ export default function RestaurantFooter() {
             <div>
               <h5 className="font-semibold text-yellow-400 mb-2">Contact</h5>
               <p className="text-gray-300 text-sm">
-                Phone: (03) 5299 2200
+                Phone: +61 481 559 396
                 <br />
                 Email: momcafe.456@gmail.com
               </p>
