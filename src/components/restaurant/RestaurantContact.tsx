@@ -302,7 +302,7 @@ export default function RestaurantContact() {
                           Call Us
                         </p>
                         <p className="text-gray-600 dark:text-gray-300">
-                          (03) 5299 2200
+                          +61 481 559 396
                         </p>
                       </div>
                     </div>
